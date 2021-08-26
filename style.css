@@ -393,14 +393,35 @@ ul {
 }
 
 /*responsive*/
-@media (max-width: 767px) {
-  .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
+@media all and (max-width: 1000px) {
+  .container .content {
+    display: block;
+  }
+  .left-content {
+    width: 100%;
+    padding: 15px;
+  }
+  .right-content {
+    width: 100%;
+    padding: 15px;
   }
 }
-@media (max-width: 574px) {
-  .footer-col {
-    width: 100%;
+@media all and (max-width: 800px) {
+  .menu-btn {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+}
+@media all and (max-width: 650px) {
+  .container .content {
+    display: block;
+  }
+  .left-content {
+    padding: 15px;
+  }
+  .right-content {
+    padding: 15px;
   }
 }
